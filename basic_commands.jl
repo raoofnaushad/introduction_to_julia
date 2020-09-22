@@ -35,7 +35,7 @@ println(f1)
 i2 = parse(Int8, "1")
 println(i2)
 
-
+## Playiong with strings
 s1 = "Just some random words\n"
 println(length(s1))
 
@@ -49,10 +49,15 @@ i3 = 2
 i4 = 3
 println("$i3 + $i4 = $(i3 + i4)")
 
-
 s3 = """
 I 
 have many
 lines here
 """
 print(s3)
+
+
+## Checking strings
+println("Raoof" > "Ezi")
+println(findfirst(isequal('u'), "Accubits"))
+println(occursin("key", "monkey"))
